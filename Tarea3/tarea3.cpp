@@ -1,14 +1,35 @@
 #include<iostream>
+#include<fstream>
 
-//Probando push desde wsl con github desktop
+
 using namespace std;
 
 int main(){
     
-    
+    string texto;
+    ifstream archivo;
 
-    return 0;
+    archivo.open("input.txt", ios::in);//abrir archivo en modo lectura
+
+    //verificar que el archivo se haya abierto correctamente
+    if(archivo.fail()){
+        cout << "No se pudo abrir el archivo" << endl;
+        return 0;
+    }
+
+    while(!archivo.eof()){
+        getline(archivo, texto);
+        
+        if(texto == "- "){
+            cout<<"nodo"<<endl;
+        }else{
+            cout<<texto<<endl;
+        }
+
+
+    }
+
+    archivo.close();
+
+    return 1;
 }
-
-//probando push desde wls nico
-//probando push desde wls con github desktop eduardo
