@@ -1,6 +1,6 @@
 #include<iostream>
 #include<fstream>
-#include<string>
+#include<string.h>
 
 using namespace std;
 
@@ -18,18 +18,13 @@ int main(){
     }
 
     while(!archivo.eof()){
-        getline(archivo, texto);
-        
-        if(texto.compare("-") == 1){
-            cout<<"nodo"<<endl;
-        }else{
-            cout<<texto<<endl;
+        getline(archivo, texto);        
+        if(texto == "START"){
+            cout<<"Detecto"<<endl;
         }
-
 
     }
 
     archivo.close();
-
     return 1;
 }
