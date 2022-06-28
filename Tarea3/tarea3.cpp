@@ -1,6 +1,6 @@
 #include<iostream>
 #include<fstream>
-
+#include<string>
 
 using namespace std;
 
@@ -20,7 +20,7 @@ int main(){
     while(!archivo.eof()){
         getline(archivo, texto);
         
-        if(texto == "- "){
+        if(texto.compare("-") == 1){
             cout<<"nodo"<<endl;
         }else{
             cout<<texto<<endl;
