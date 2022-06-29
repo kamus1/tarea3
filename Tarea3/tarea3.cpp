@@ -4,6 +4,27 @@
 
 using namespace std;
 
+
+// trim from end (right)
+inline std::string& rtrim(std::string& s, const char* t = " \t\n\r\f\v")
+{
+    s.erase(s.find_last_not_of(t) + 1);
+    return s;
+}
+
+// trim from beginning (left)
+inline std::string& ltrim(std::string& s, const char* t = " \t\n\r\f\v")
+{
+    s.erase(0, s.find_first_not_of(t));
+    return s;
+}
+
+// trim from both ends (left & right)
+inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v")
+{
+    return ltrim(rtrim(s, t), t);
+}
+
 int main(){
     
     string texto;
@@ -18,7 +39,8 @@ int main(){
     }
 
     while(!archivo.eof()){
-        getline(archivo, texto);        
+        getline(archivo, texto); 
+        trim(texto);       
         if(texto == "START"){
             cout<<"Detecto"<<endl;
         }
