@@ -1,9 +1,7 @@
 #include<iostream>
 #include<fstream>
-#include<string.h>
 
 using namespace std;
-
 
 // trim from end (right)
 inline std::string& rtrim(std::string& s, const char* t = " \t\n\r\f\v")
@@ -27,9 +25,10 @@ inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v")
 
 int main(){
     
-    string texto;
-    ifstream archivo;
+    string texto, nodoOrigen, decision, decripcion;
+    float start = true;
 
+    ifstream archivo;
     archivo.open("input.txt", ios::in);//abrir archivo en modo lectura
 
     //verificar que el archivo se haya abierto correctamente
@@ -40,10 +39,17 @@ int main(){
 
     while(!archivo.eof()){
         getline(archivo, texto); 
-        trim(texto);       
-        if(texto == "START"){
-            cout<<"Detecto"<<endl;
+        trim(texto);
+
+        if(texto == "-" && start == true){
+            start = false;
+        }else if(start == true){
+            cout<<texto<<endl;
         }
+
+
+
+
 
     }
 
