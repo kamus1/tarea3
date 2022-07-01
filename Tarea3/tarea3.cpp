@@ -94,6 +94,9 @@ int main(){
             start = false;
         }else if(start == true){
             cout<<texto<<endl;
+        }else if(texto == "-"){
+            opcion = 0;
+            decripcion = "";
         }else{
             switch(opcion){
                 case 0:
@@ -106,7 +109,6 @@ int main(){
                     break;
                 default:
                     decripcion += texto;
-                    opcion = 0;
                     break;
             }
             cout<<nodoOrigen<<endl;
