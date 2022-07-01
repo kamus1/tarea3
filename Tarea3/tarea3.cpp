@@ -109,10 +109,11 @@ int main(){
                     opcion = 0;
                     break;
             }
+            cout<<nodoOrigen<<endl;
+            cout<<decision<<endl;
+            cout<<decripcion<<endl;
         }
-        cout<<nodoOrigen<<endl;
-        cout<<decision<<endl;
-        cout<<decripcion<<endl;
+
     }    
     archivo.close();
     return 1;
