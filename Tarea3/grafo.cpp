@@ -8,3 +8,4 @@ NodoGrafo* crearGrafo(){
     nodo_inicial -> siguiente = NULL;
     return nodo_inicial;
 }
+}
