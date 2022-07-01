@@ -1,19 +1,10 @@
-#include<fstream>
-#include<iostream>
-using namespace std;
+#include "header.h"
 
-struct NodoGrafo
-{
-    int key;
-    string descripcion;
-    Adyacencia *adyacencia;
-    NodoGrafo *siguiente;
-};
-
-struct Adyacencia
-{
-    int opcion;
-    string descripcion;
-    NodoGrafo* camino;
-    Adyacencia* siguiente;
-};
+NodoGrafo* crearGrafo(){
+    NodoGrafo* nodo_inicial = new NodoGrafo;
+    nodo_inicial ->key = 1;
+    nodo_inicial -> descripcion = "";
+    nodo_inicial -> adyacencia = NULL;
+    nodo_inicial -> siguiente = NULL;
+    return nodo_inicial;
+}
