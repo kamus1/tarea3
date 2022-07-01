@@ -24,7 +24,7 @@ inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v")
 }
 
 
-//Funcion return Numero cantidad de opciones
+//Funcion return Numero cantidad de opciones de nodo
 int NumOpciones(string num){
     string texto;
     int contador = 0 ;
@@ -70,8 +70,12 @@ struct sala{
 
 int main(){
     
-    string texto, nodoOrigen, decision, decripcion;
+    string texto, decision, decripcion;
+    int nodoOrigen;
+
     float start = true;
+    int opcion = 0
+
 
     ifstream archivo;
     archivo.open("input.txt", ios::in);//abrir archivo en modo lectura
@@ -89,17 +93,22 @@ int main(){
         if(texto == "-" && start == true){
             start = false;
         }else if(start == true){
-            cout<<texto<<endl;
+            switch(opcion){
+                case 0:
+                    nodoOrigen = stoi(texto);
+                    opcion++;
+                    break;
+                case 1:
+                    decision = texto;
+                    opcion++;
+                    break;
+                default:
+                    decripcion += texto;
+                    opcion = 0
+                    break;
+            }
         }
-
-
-
-
-
-    }
-
-    cout<<NumOpciones("6")<<endl;
-    
+    }    
     archivo.close();
     return 1;
 }
