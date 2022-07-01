@@ -1,6 +1,8 @@
 #include<iostream>
 #include<fstream>
 
+#include "header.h"
+
 using namespace std;
 
 // trim from end (right)
@@ -76,7 +78,6 @@ int main(){
     float start = true;
     int opcion = 0;
 
-
     ifstream archivo;
     archivo.open("input.txt", ios::in);//abrir archivo en modo lectura
 
@@ -90,14 +91,14 @@ int main(){
         getline(archivo, texto); 
         trim(texto);
 
-        if(texto == "-" && start == true){
+        if(texto == "-" && start == true){ // Si se estaba leyendo el inicio y llega a un "-" cambia el stado de star por false
             start = false;
-        }else if(start == true){
+        }else if(start == true){ // Si mientras "start" sea true imprime por pantalla
             cout<<texto<<endl;
-        }else if(texto == "-"){
+        }else if(texto == "-"){ // Si se detecta un guion y no es el inicio se reestablesen las variables de control y descripcion (caso especial)
             opcion = 0;
             decripcion = "";
-        }else{
+        }else{ // leer 
             switch(opcion){
                 case 0:
                     nodoOrigen = stoi(texto);
