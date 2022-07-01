@@ -21,6 +21,6 @@ struct Adyacencia
 };
 
 //Funciones
-NodoGrafo* crearGrafo();
+NodoGrafo* crearGrafo(string texto);
 NodoGrafo* addNodo(int llave, string texto, NodoGrafo* &tail);
 void addAdyacencia(int opcion, string texto);

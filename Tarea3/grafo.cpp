@@ -1,10 +1,10 @@
 #include "header.h"
 
-NodoGrafo* crearGrafo(){
+NodoGrafo* crearGrafo(string texto){
     NodoGrafo* nodo_inicial = new NodoGrafo;
     nodo_inicial ->key = numero_de_sala;
     numero_de_sala++;
-    nodo_inicial -> descripcion = "";
+    nodo_inicial -> descripcion = texto;
     nodo_inicial -> adyacencia = NULL;
     nodo_inicial -> siguiente = NULL;
     return nodo_inicial;
