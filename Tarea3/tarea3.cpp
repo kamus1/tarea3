@@ -74,7 +74,7 @@ int main(){
     int nodoOrigen;
 
     float start = true;
-    int opcion = 0
+    int opcion = 0;
 
 
     ifstream archivo;
@@ -93,6 +93,8 @@ int main(){
         if(texto == "-" && start == true){
             start = false;
         }else if(start == true){
+            cout<<texto<<endl;
+        }else{
             switch(opcion){
                 case 0:
                     nodoOrigen = stoi(texto);
@@ -104,7 +106,7 @@ int main(){
                     break;
                 default:
                     decripcion += texto;
-                    opcion = 0
+                    opcion = 0;
                     break;
             }
         }
