@@ -43,11 +43,8 @@ int NumOpciones(string num){
     return contador;
 }
 
-int main(){
-    
-    NodoGrafo* inicio;
-    NodoGrafo* tail;
-    string texto, decision, decripcion, start_, nodoOrigen_2;
+bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
+    string texto, decision, descripcion, start_, nodoOrigen_2;
     int nodoOrigen_1;
 
     bool start = true;
@@ -56,7 +53,7 @@ int main(){
     int opcion = 0;
 
     ifstream archivo;
-    archivo.open("input.txt", ios::in);//abrir archivo en modo lectura
+    archivo.open(nameArchivo, ios::in);//abrir archivo en modo lectura
 
     //verificar que el archivo se haya abierto correctamente
     if(archivo.fail()){
@@ -88,7 +85,7 @@ int main(){
                 origen = origen->siguiente;
             }
 
-            NodoGrafo* nodoActual = addNodo(decripcion, tail);
+            NodoGrafo* nodoActual = addNodo(descripcion, tail);
 
             if(origen->adyacencia == NULL){
                 
@@ -99,24 +96,19 @@ int main(){
                 nuevo->siguiente = NULL;
                 origen->adyacencia = nuevo;
 
-            }else{
+                // cout<<"1 "<<decision<<endl;
 
+            }else{
                 Adyacencia* inicioAdyacencia = origen->adyacencia;
+
+                // cout<<"2 "<<decision<<endl;
                 addAdyacencia(decision, inicioAdyacencia, nodoActual);
-               
             }
 
-
-            // cout<<origen->adyacencia->opcion<<endl;
-            // cout<<origen->adyacencia->descripcion<<endl;
-            
-            
             //--------------------------------------------------
 
-            
-
             opcion = 0;
-            decripcion = "";
+            descripcion = "";
 
         }else if(texto != "START"){ // leer 
             switch(opcion){
@@ -130,16 +122,30 @@ int main(){
                     opcion++;
                     break;
                 default:
-                    decripcion += texto;
+                    descripcion += texto;
                     break;
             }
-            // cout<<nodoOrigen_2<<endl;
-            // cout<<decision<<endl;
-            // cout<<decripcion<<endl;
         }
-
     }
-    recorrerGrafo(inicio);   
+ 
     archivo.close();
+    return 1;
+
+}
+
+int main(){
+    
+    NodoGrafo* inicio;
+    NodoGrafo* tail;
+
+    ProcesarArchivo(inicio, tail, "input.txt");
+
+    // recorrerGrafo(inicio);  
+    //codigo principal del juego;
+
+
+
+
+
     return 1;
 }
