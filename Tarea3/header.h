@@ -4,6 +4,9 @@ using namespace std;
 
 int numero_de_sala = 1;
 
+struct Adyacencia;
+struct NodoGrafo;
+
 struct NodoGrafo
 {
     int key;
@@ -22,5 +25,5 @@ struct Adyacencia
 
 //Funciones
 NodoGrafo* crearGrafo(string texto);
-NodoGrafo* addNodo(int llave, string texto, NodoGrafo* &tail);
-void addAdyacencia(int opcion, string texto);
+NodoGrafo* addNodo(string texto, NodoGrafo* &tail);
+void addAdyacencia(int opcion, string texto, Adyacencia* inicio, NodoGrafo* destino);

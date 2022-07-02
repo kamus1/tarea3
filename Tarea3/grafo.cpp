@@ -10,7 +10,7 @@ NodoGrafo* crearGrafo(string texto){
     return nodo_inicial;
 }
 
-NodoGrafo* addNodo(int llave, string texto, NodoGrafo* &tail){
+NodoGrafo* addNodo(string texto, NodoGrafo* &tail){
     NodoGrafo* NuevoNodo = new NodoGrafo;
     NuevoNodo ->key = numero_de_sala;
     numero_de_sala++;

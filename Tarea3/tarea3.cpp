@@ -42,38 +42,11 @@ int NumOpciones(string num){
     archivo.close();
     return contador;
 }
-//Funcion para insertar salas
-void InsertarSala(struct sala *&primeraSala, string descripcion){
-
-}
-
-//Funcion para insertar Opciones
-void InsertarOpcion(){
-
-}
-
-
-//struct para las ocpiones o caminos
-struct opcion{
-    string descripcion, numOpcion;
-
-    struct opcion *siguiente;
-    struct sala *salaSiguiente;
-};
-
-//struct para las salas
-struct sala{
-    string descripcion, numSala;
-    int numOpciones;
-    
-    struct opcion *listaSalas;
-};
-
 
 int main(){
     
-    string texto, decision, decripcion;
-    int nodoOrigen;
+    string texto, decision, decripcion, start_, nodoOrigen_2;
+    int nodoOrigen_1;
 
     float start = true;
     int opcion = 0;
@@ -93,15 +66,40 @@ int main(){
 
         if(texto == "-" && start == true){ // Si se estaba leyendo el inicio y llega a un "-" cambia el stado de star por false
             start = false;
-        }else if(start == true){ // Si mientras "start" sea true imprime por pantalla
-            cout<<texto<<endl;
+        }else if(start == true && texto != "START"){ // Si mientras "start" sea true imprime por pantalla
+            start_ += texto;
         }else if(texto == "-"){ // Si se detecta un guion y no es el inicio se reestablesen las variables de control y descripcion (caso especial)
+            
+
+            //-------------------------------------------------
+            NodoGrafo* inicio = crearGrafo(start_);
+            NodoGrafo* tail = inicio;
+
+            NodoGrafo* origen = inicio;
+
+            while(origen->key != nodoOrigen_1){
+                origen = origen->siguiente;
+            }
+
+            Adyacencia* inicioAdyacencia = origen->adyacencia;
+            NodoGrafo* nodoActual = addNodo(decripcion, tail);
+            
+            int numOpciones_ =  1;
+            if(NumOpciones(nodoOrigen_2) > numOpciones_ ){
+                addAdyacencia(numOpciones_, decision, inicioAdyacencia, nodoActual);
+            }
+
+
+            //--------------------------------------------------
+
             opcion = 0;
             decripcion = "";
+
         }else{ // leer 
             switch(opcion){
                 case 0:
-                    nodoOrigen = stoi(texto);
+                    nodoOrigen_1 = stoi(texto);
+                    nodoOrigen_2 = texto;
                     opcion++;
                     break;
                 case 1:
@@ -112,7 +110,7 @@ int main(){
                     decripcion += texto;
                     break;
             }
-            cout<<nodoOrigen<<endl;
+            cout<<nodoOrigen_1<<endl;
             cout<<decision<<endl;
             cout<<decripcion<<endl;
         }
