@@ -91,6 +91,7 @@ bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
                 
                 Adyacencia* nuevo = new Adyacencia;
 
+                nuevo->opcion = 1;
                 nuevo->descripcion = decision;
                 nuevo->camino = nodoActual;
                 nuevo->siguiente = NULL;
@@ -140,7 +141,7 @@ int main(){
 
     ProcesarArchivo(inicio, tail, "input.txt");
 
-    // recorrerGrafo(inicio);  
+    recorrerGrafo(inicio);  
     //codigo principal del juego;
 
 
