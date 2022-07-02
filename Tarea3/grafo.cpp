@@ -46,7 +46,7 @@ void addAdyacencia(string texto, Adyacencia* inicio, NodoGrafo* destino){
 
 void recorrerGrafo(NodoGrafo* inicio){
     NodoGrafo* aux = inicio;
-    while(aux->siguiente != NULL){
+    while(aux != NULL){
         cout<<aux->key<<endl;
         cout<<aux->descripcion<<endl;
 

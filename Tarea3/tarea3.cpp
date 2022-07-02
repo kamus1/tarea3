@@ -68,15 +68,11 @@ int main(){
         getline(archivo, texto); 
         trim(texto);
 
-        cout<<texto<<endl;
-
-
         if(texto == "-" && start == true){ // Si se estaba leyendo el inicio y llega a un "-" cambia el stado de star por false
             start = false;
         }else if(start == true && texto != "START"){ // Si mientras "start" sea true imprime por pantalla
             start_ += texto;
         }else if(texto == "-"){ // Si se detecta un guion y no es el inicio se reestablesen las variables de control y descripcion (caso especial)
-            
             
             //-------------------------------------------------
             if(!nodoInicioCreado){
@@ -96,6 +92,7 @@ int main(){
             NodoGrafo* nodoActual = addNodo(decripcion, tail);
             
             int numOpciones_ =  7;
+            
             if(NumOpciones(nodoOrigen_2) > numOpciones_ ){
                 addAdyacencia(decision, inicioAdyacencia, nodoActual);
             }
@@ -123,13 +120,13 @@ int main(){
                     decripcion += texto;
                     break;
             }
-            // cout<<nodoOrigen_1<<endl;
+            // cout<<nodoOrigen_2<<endl;
             // cout<<decision<<endl;
             // cout<<decripcion<<endl;
         }
 
     }
-    // recorrerGrafo(inicio);   
+    recorrerGrafo(inicio);   
     archivo.close();
     return 1;
 }
