@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-int numero_de_sala = 1;
+
 
 struct Adyacencia;
 struct NodoGrafo;
@@ -26,4 +26,5 @@ struct Adyacencia
 //Funciones
 NodoGrafo* crearGrafo(string texto);
 NodoGrafo* addNodo(string texto, NodoGrafo* &tail);
-void addAdyacencia(int opcion, string texto, Adyacencia* inicio, NodoGrafo* destino);
+void addAdyacencia(string texto, Adyacencia* inicio, NodoGrafo* destino);
+void recorrerGrafo(NodoGrafo* inicio);

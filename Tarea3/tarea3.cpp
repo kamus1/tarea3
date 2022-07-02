@@ -45,10 +45,14 @@ int NumOpciones(string num){
 
 int main(){
     
+    NodoGrafo* inicio;
+    NodoGrafo* tail;
     string texto, decision, decripcion, start_, nodoOrigen_2;
     int nodoOrigen_1;
 
-    float start = true;
+    bool start = true;
+    bool nodoInicioCreado = false;
+
     int opcion = 0;
 
     ifstream archivo;
@@ -70,10 +74,14 @@ int main(){
             start_ += texto;
         }else if(texto == "-"){ // Si se detecta un guion y no es el inicio se reestablesen las variables de control y descripcion (caso especial)
             
-
+            
             //-------------------------------------------------
-            NodoGrafo* inicio = crearGrafo(start_);
-            NodoGrafo* tail = inicio;
+            if(!nodoInicioCreado){
+                inicio = crearGrafo(start_);
+
+                tail = inicio;
+                nodoInicioCreado = true;
+            }
 
             NodoGrafo* origen = inicio;
 
@@ -86,16 +94,18 @@ int main(){
             
             int numOpciones_ =  1;
             if(NumOpciones(nodoOrigen_2) > numOpciones_ ){
-                addAdyacencia(numOpciones_, decision, inicioAdyacencia, nodoActual);
+                addAdyacencia(decision, inicioAdyacencia, nodoActual);
             }
-
-
+            
+            
             //--------------------------------------------------
+
+            
 
             opcion = 0;
             decripcion = "";
 
-        }else{ // leer 
+        }else if(texto != "START"){ // leer 
             switch(opcion){
                 case 0:
                     nodoOrigen_1 = stoi(texto);
@@ -115,7 +125,8 @@ int main(){
             cout<<decripcion<<endl;
         }
 
-    }    
+    }
+    // recorrerGrafo(inicio);   
     archivo.close();
     return 1;
 }
