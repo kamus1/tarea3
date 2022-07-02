@@ -86,14 +86,27 @@ int main(){
 
             while(origen->key != nodoOrigen_1){
                 origen = origen->siguiente;
-                cout<<origen->key<<endl;
             }
 
-            Adyacencia* inicioAdyacencia = origen->adyacencia;
             NodoGrafo* nodoActual = addNodo(decripcion, tail);
-            
 
-            addAdyacencia(decision, inicioAdyacencia, nodoActual);
+            if(origen->adyacencia == NULL){
+                
+                Adyacencia* nuevo = new Adyacencia;
+
+                nuevo->descripcion = decision;
+                nuevo->camino = nodoActual;
+                nuevo->siguiente = NULL;
+                origen->adyacencia = nuevo;
+
+            }else{
+
+                Adyacencia* inicioAdyacencia = origen->adyacencia;
+                addAdyacencia(decision, inicioAdyacencia, nodoActual);
+               
+            }
+
+
             // cout<<origen->adyacencia->opcion<<endl;
             // cout<<origen->adyacencia->descripcion<<endl;
             
