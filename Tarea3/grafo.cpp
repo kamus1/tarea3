@@ -50,12 +50,12 @@ void recorrerGrafo(NodoGrafo* inicio){
         cout<<aux->key<<endl;
         cout<<aux->descripcion<<endl;
 
-        Adyacencia* aux2 = aux->adyacencia;
-        while(aux2->siguiente != NULL){
-            cout<<aux2->opcion<<endl;
-            cout<<aux2->descripcion<<endl;
-            aux2 = aux2->siguiente;
-        }
+        // Adyacencia* aux2 = aux->adyacencia;
+        // while(aux2->siguiente != NULL){
+        //     cout<<aux2->opcion<<endl;
+        //     cout<<aux2->descripcion<<endl;
+        //     aux2 = aux2->siguiente;
+        // }
 
         aux = aux->siguiente;
     }

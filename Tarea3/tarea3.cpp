@@ -68,6 +68,9 @@ int main(){
         getline(archivo, texto); 
         trim(texto);
 
+        cout<<texto<<endl;
+
+
         if(texto == "-" && start == true){ // Si se estaba leyendo el inicio y llega a un "-" cambia el stado de star por false
             start = false;
         }else if(start == true && texto != "START"){ // Si mientras "start" sea true imprime por pantalla
@@ -92,7 +95,7 @@ int main(){
             Adyacencia* inicioAdyacencia = origen->adyacencia;
             NodoGrafo* nodoActual = addNodo(decripcion, tail);
             
-            int numOpciones_ =  1;
+            int numOpciones_ =  7;
             if(NumOpciones(nodoOrigen_2) > numOpciones_ ){
                 addAdyacencia(decision, inicioAdyacencia, nodoActual);
             }
@@ -120,9 +123,9 @@ int main(){
                     decripcion += texto;
                     break;
             }
-            cout<<nodoOrigen_1<<endl;
-            cout<<decision<<endl;
-            cout<<decripcion<<endl;
+            // cout<<nodoOrigen_1<<endl;
+            // cout<<decision<<endl;
+            // cout<<decripcion<<endl;
         }
 
     }
