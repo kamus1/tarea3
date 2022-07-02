@@ -26,36 +26,37 @@ NodoGrafo* addNodo(string texto, NodoGrafo* &tail){
 }
 
 void addAdyacencia(string texto, Adyacencia* inicio, NodoGrafo* destino){
+
     int numAdyacencia = 0;
     Adyacencia* nuevo = new Adyacencia;
-    
+
+
     nuevo->descripcion = texto;
     nuevo->camino = destino;
     nuevo->siguiente = NULL;
-    while (inicio ->siguiente != NULL)
+    while (inicio != NULL)
     {
         numAdyacencia++;
-        inicio ->siguiente = inicio->siguiente->siguiente;
-
+        inicio = inicio->siguiente;
     }
 
     nuevo->opcion = numAdyacencia;
 
-    inicio->siguiente = nuevo;
+    inicio = nuevo;
 }
 
 void recorrerGrafo(NodoGrafo* inicio){
     NodoGrafo* aux = inicio;
     while(aux != NULL){
-        cout<<aux->key<<endl;
-        cout<<aux->descripcion<<endl;
+        // cout<<aux->key<<endl;
+        // cout<<aux->descripcion<<endl;
 
-        // Adyacencia* aux2 = aux->adyacencia;
-        // while(aux2->siguiente != NULL){
-        //     cout<<aux2->opcion<<endl;
-        //     cout<<aux2->descripcion<<endl;
-        //     aux2 = aux2->siguiente;
-        // }
+        Adyacencia* aux2 = aux->adyacencia;
+        while(aux2 != NULL){
+            cout<<aux2->opcion<<endl;
+            cout<<aux2->descripcion<<endl;
+            aux2 = aux2->siguiente;
+        }
 
         aux = aux->siguiente;
     }
