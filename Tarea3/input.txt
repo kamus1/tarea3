@@ -58,7 +58,8 @@ GAMEOVER
 Tomar el camino bueno
 "JA! Iluso! El escritor de esta aventura tenia razon cuando dijo que eras la persona
 mas credula del mundo!" El camino bueno termino siendo malo. Tu cabeza esta llena de tantas
-bobadas, que explota.GAMEOVER
+bobadas, que explota.
+GAMEOVER
 -
 6
 Tomar el camino malo
@@ -66,5 +67,6 @@ Tomar el camino malo
 Feliz de haber escapado de este interminable juego, decides dejar de lado el computador 
 y salir a caminar. O por lo menos eso deberias hacer. Ya no puedo controlar lo que
 haces porque ya no eres un personaje de ficcion, sino una persona real que tiene cosas que 
-hacer y gente que ver.WINNER
+hacer y gente que ver.
+WINNER
 -
