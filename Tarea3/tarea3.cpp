@@ -74,7 +74,6 @@ bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
             //-------------------------------------------------
             if(!nodoInicioCreado){
                 inicio = crearGrafo(start_);
-
                 tail = inicio;
                 nodoInicioCreado = true;
             }
