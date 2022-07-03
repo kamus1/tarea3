@@ -33,9 +33,6 @@ NodoGrafo* addNodo(string texto, NodoGrafo* &tail){
 //Funcion que crea los nodos de la lista de adyacencia.
 void addAdyacencia(string texto, Adyacencia* inicio, NodoGrafo* destino){
 
-    cout<<destino->key<<endl;
-
-
     int numAdyacencia = 2;
     Adyacencia* nuevo = new Adyacencia;
 
@@ -44,9 +41,6 @@ void addAdyacencia(string texto, Adyacencia* inicio, NodoGrafo* destino){
     nuevo->siguiente = NULL;
     while (inicio->siguiente != NULL)
     {
-        // cout<<numAdyacencia<<endl;
-        // cout<<texto<<endl;
-
         numAdyacencia++;
         inicio = inicio->siguiente;
     }

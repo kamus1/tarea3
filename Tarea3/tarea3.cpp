@@ -139,11 +139,48 @@ int main(){
     NodoGrafo* inicio;
     NodoGrafo* tail;
 
-    ProcesarArchivo(inicio, tail, "input.txt");
+    // ProcesarArchivo(inicio, tail, "input.txt");
+    if(!ProcesarArchivo(inicio, tail, "input.txt")){
+        cout<<"Ocurrio algun error"<<endl;
+        return 0;
+    }  
+    // recorrerGrafo(inicio);
 
-    recorrerGrafo(inicio);  
-    //codigo principal del juego;
+    //Ciclo principal del juego
 
+
+    int alternativa;
+    
+    NodoGrafo* aux = inicio;
+    while(aux != NULL){
+        cout<<aux->descripcion<<endl;
+        
+
+        Adyacencia* auxAdyacencia = aux->adyacencia;
+        while(auxAdyacencia != NULL){
+            cout<<auxAdyacencia->opcion<<": ";
+            cout<<auxAdyacencia->descripcion<<endl;
+            
+            auxAdyacencia = auxAdyacencia->siguiente;
+        }   
+        
+        cin>>alternativa;
+
+        auxAdyacencia = aux->adyacencia;
+        while(auxAdyacencia != NULL){
+
+            if(auxAdyacencia->opcion == alternativa){
+                aux = auxAdyacencia->camino;
+            }
+
+            
+            auxAdyacencia = auxAdyacencia->siguiente;
+        }  
+
+
+
+
+    }
 
 
 
