@@ -68,7 +68,7 @@ bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
         if(texto == "-" && start == true){ // Si se estaba leyendo el inicio y llega a un "-" cambia el stado de star por false
             start = false;
         }else if(start == true && texto != "START"){ // Si mientras "start" sea true imprime por pantalla
-            start_ += texto;
+            start_ += texto+"\n";
         }else if(texto == "-"){ // Si se detecta un guion y no es el inicio se reestablesen las variables de control y descripcion (caso especial)
             
             //-------------------------------------------------
@@ -123,7 +123,11 @@ bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
                     opcion++;
                     break;
                 default:
-                    descripcion += texto;
+                    if(texto == "GAMEOVER"){
+                        descripcion += "\n"+texto;
+                    }else{                        
+                        descripcion += texto;
+                    }
                     break;
             }
         }
@@ -180,15 +184,12 @@ int main(){
                 auxAdyacencia = auxAdyacencia->siguiente;
             }  
         }else{
-            return 0;
+            aux = inicio;
         }
-
-
+        cout<<"OK"<<endl;
+        cin.get();
 
     }
-
-
-
 
     return 1;
 }
