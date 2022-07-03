@@ -140,7 +140,7 @@ int main(){
     NodoGrafo* tail;
 
     // ProcesarArchivo(inicio, tail, "input.txt");
-    if(!ProcesarArchivo(inicio, tail, "input.txt")){
+    if(!ProcesarArchivo(inicio, tail, "historia.txt")){
         cout<<"Ocurrio algun error"<<endl;
         return 0;
     }  
@@ -153,30 +153,35 @@ int main(){
     
     NodoGrafo* aux = inicio;
     while(aux != NULL){
+        system("clear");
+
         cout<<aux->descripcion<<endl;
         
 
         Adyacencia* auxAdyacencia = aux->adyacencia;
-        while(auxAdyacencia != NULL){
-            cout<<auxAdyacencia->opcion<<": ";
-            cout<<auxAdyacencia->descripcion<<endl;
+        if(auxAdyacencia != NULL){
+            while(auxAdyacencia != NULL){
+                cout<<auxAdyacencia->opcion<<": ";
+                cout<<auxAdyacencia->descripcion<<endl;
+                
+                auxAdyacencia = auxAdyacencia->siguiente;
+            }   
             
-            auxAdyacencia = auxAdyacencia->siguiente;
-        }   
-        
-        cin>>alternativa;
+            cin>>alternativa;
 
-        auxAdyacencia = aux->adyacencia;
-        while(auxAdyacencia != NULL){
+            auxAdyacencia = aux->adyacencia;
+            while(auxAdyacencia != NULL){
 
-            if(auxAdyacencia->opcion == alternativa){
-                aux = auxAdyacencia->camino;
-            }
+                if(auxAdyacencia->opcion == alternativa){
+                    aux = auxAdyacencia->camino;
+                }
 
-            
-            auxAdyacencia = auxAdyacencia->siguiente;
-        }  
-
+                
+                auxAdyacencia = auxAdyacencia->siguiente;
+            }  
+        }else{
+            return 0;
+        }
 
 
 

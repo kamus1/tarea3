@@ -1,201 +1,202 @@
 START
-(1) ----YO EL GRAN CERDO----
+     ----YO EL GRAN CERDO----
 Eres el duende (nombre: Larry, BOB, importa el nombre es solo un duende ? xd) de una la aldea de las antiguas aldeas del reinado beicon, te sientes lamentable debido a que últimamente tu aldea ha sido atacada por el temible cerdo (nombre, πgod, pig(od), pig od pickton ¿?), que devora todos los cultivos y reservas de alimento para el año entero sumiendo a la aldea entera en una terrible era de hambruna, además si los rumores son ciertos has oído que al no haber alimento en los campos el cerdo ha empezado a devorar duendes…, lamentablemente eres muy débil para formar parte de la armada real para siquiera hacer honor frente al batallón de defensa. Por lo que solo has de quedarte en tu casa mirando desde la ventana de tu habitación como los demás forman filas y se preparan para la defensa.
 -
 1
-(2)Salir de tu habitación (no recomendado)
+Salir de tu habitación (no recomendado)
 Al salir de tu cuarto ves a tu padre saliendo de la casa y a tu pobre madre intentando preparar una pequeña tarta con restos malolientes de avena y agua.
 -
 1
-(3) Acariciar a tu gato
+Acariciar a tu gato
 Rrrrrrr hhhhhiiiiiiiisssss , al parecer a tu gato no le agradas : ( , no se el gato explota y mueres.
 GAMEOVER
 -
 2
-(4)Por intentar ayudar a tu madre tropiezas con una hormiga y en un intento de mantener el equilibrio tiras la tarta, el último alimento para la familia y mueren de hambre.
+ayudar a la madre
+Por intentar ayudar a tu madre tropiezas con una hormiga y en un intento de mantener el equilibrio tiras la tarta, el último alimento para la familia y mueren de hambre.
 GAMEOVER
 -
 2
-(5)Seguir a tu padre
+Seguir a tu padre
 Al salir de tu casa ves a tu padre que está arando el campo mientras a lo lejos ves una gigante sombra con forma de cerdo que va acercándose a gran velocidad directamente hacia tu padre.
 -
 5
-(6)Gritarle a tu padre para advertirle.
+Gritarle a tu padre para advertirle.
 Debido a la edad de tu padre es que está más sordo que la mrd, por lo que no te ha escuchado nada y se lo zampan, los años no pasan en vano sabes… ah y por bobo te comen a ti también.
 GAMEOVER
 -
 5
-(7)Correr hacia tu padre para salvarlo.
+Correr hacia tu padre para salvarlo.
 Con todas tus fuerzas (que no son muchas) corres lo más rápido posible hacia tu padre, tu padre te mira con extrañeza, pero antes de decir siquiera una sola palabra el cerdo lo ha devorado y ahora te va a devorar a ti, Sin embargo, a punto de que tu cabeza sea devorada por el cerdo, extrañamente él decide no hacerlo y con su gigante y maloliente trompa te hace una marca en la frente, para luego huir rápidamente. Te levantas para solo contemplar de que lo único que ha quedado de tu padre es su zapato.
 -
 5
-(8)Escapar hacia el granero.
+Escapar hacia el granero.
 Debido a que eres un duende muy miedoso corres hacia el granero para esconderte y mientras escapas oyes unos terribles gritos de tu padre. De tus ojos empiezan a escurrir lágrimas, pero al llegar al granero el maldito cerdo ha saltado encima y ha destruido todo el techo, así como también un ático oculto que había y no conocías de su existencia, del ático empiezan a caer espadas, armaduras y útiles de guerra, pero el cerdo te ha atrapado y te ha realizado una marca en la frente con su horrible y apestosa trompa llena de mocos, pero justo antes de devorarte cae una gigantesca espada de lo alto del ático y le perfora la pezuña al cerdo por lo que rápidamente escapa del granero y se pierde en lo profundo del bosque.
 -
 7 
-(9)Tocar la marca.
+Tocar la marca.
 Empiezas a sentir un pequeño ardor en la marca, segundos después te has convertido en un pequeño cerdo y justamente iban pasando unos guardia que piensan que eres la temible bestia, por lo que te matan te hacen cerdo a la parrilla.
 GAMEOVER 
 -
 7
-(10)Examinar el zapato.
+Examinar el zapato.
 Al examinar el apestoso zapato ves que hay un papel con algo escrito pero que contiene muchos borrones y al parecer no está terminado, junto a él se encuentra una llave.
 -
 8
-(11)Examinar espada
+Examinar espada
 Quedas hipnotizado con los increíbles detalles de tonalidades oscuras y filo de aquella gigantesca espada, es como si se hubiera acabado de forjar y pulir. Logras notar algo escrito grabado con tonos rojizos que en su costado dice: “ The PigSlayer”, inevitablemente tomas la espada. Al tomar la espada tu sed de venganza no tiene límites por sin pensarlo demasiado sales del granero y te diriges a los límites prohibidos de la aldea en busca de (el nombre del cerdo o lo dejas como simplemente el cerdo.
 -
 8
-(12)Irte corriendo
+Irte corriendo
 algo malo pasa y te mueres
 GAMEOVER
 -
 10
-(13)Leer el gastado papel
+Leer el gastado papel
 El papel dice :“Querrido ijo he deseado poder desirte hesto dezde hace muchho tiemp… BORRONES … entonces haci es como yo e  BORRONES… condenada espada… sin emabargo tiene una maldBORRONES ….. en el granero … pero yo ya sstoy muy biejo y … ”Por lo que decides ir al granero a investigar.
 -
 10
-(14)Tomar llave primero
+Tomar llave primero
 La llave parece muy antigua y está bastante gastada, lees el papel y al parecer tu padre quería que fueras al granero. Al llegar hay una escotilla en el techo que nunca antes habías visto, por lo que tomas la conveniente escalera que hay en el granero y subes, tiene una cerradura por la cual cabe perfectamente la llave que tienes. Entras y observas un montón de armamento de guerra, espadas, escudos, hachas, etc. Junto a unos cuadros que son retratos de tu padre en su juventud vestido con una armadura de batalla con un distintivo color y detalles negros que a la vez está sosteniendo una gigantesca espada.
 -
 11
-(15)Aceptar
+Aceptar
 Realmente no sabes donde se encuentra el cerdo, ni como buscarlo pero solo sigues el único camino que ves notoriamente marcado, hasta que te topas con un anciano a la orilla de un río, notas que tiene una pierna de palo y le ha caído su caballo encima.
 -
 13
-(16)Aceptar
+Aceptar
 Al llegar al granero hay una escotilla en el techo que nunca antes habías visto, por lo que tomas la conveniente escalera que hay en el granero y subes, pero… tiene una cerradura y se te olvidó la llave.
 GAMEOVER
 -
 14
-(17)Ver cuadros 
+Ver cuadros 
 Es un cuadro mágico y te transporta a la batalla contra miles de cerdos al no tener habilidades ni arma para la batalla te mueres.
 GAMEOVER
 -
 14
-(18)VER LA ESPADA
+VER LA ESPADA
 Quedas hipnotizado con los increíbles detalles de tonalidades oscuras y filo de aquella gigantesca espada, es como si se hubiera acabado de forjar y pulir. Logras a notar algo escrito   que está grabado con tonos rojizos en su costado dice: “ The PigSlayer”inevitablemente tomas la espada. 
 Al tomar la espada tu sed de venganza no tiene límites por sin pensarlo demasiado sales del granero y te diriges a los límites prohibidos de la aldea en busca del cerdo.
 -
 14
-(19)Ver armamento
+Ver armamento
 “Estas espadas tienen bastante polvo y lucen mal cuidadas” dices, y de la nada aparece un murciélago que se te tira a la cara y hace que te caigas del ático y te partes el cuello.
 GAMEOVER
 -
 15
-(20)Pasar de él.
+Pasar de él.
 Continuas tu camino hasta pasar por al lado de una torre en la que escuchas una discusión a través de una pequeña rejilla dando a un calabozo.
 -
 15
-(21)Ayudar al viejo.
+Ayudar al viejo.
 Ayudas al viejo moviendo al caballo hasta que por fin logra salir, es en ese entonces en el que ve la marca en tu cara y le da tremendo susto porque el sabe de donde proviene y te explica qué es la marca maldita del cerdo, se la hace a aquellos que tuvieron la atrevimiento necesario para intentar acabar con él , “de seguro él sabe que irás por él y por eso te marcó al igual que a mí” dice el viejo y te muestra una marca que tiene en el antebrazo “ esa marca que tienes te impedirá derrotarlo pero he estado lo suficientemente cerca para darme cuenta que si te tapas la marca con esta venda azul podrás derrotarlo o eso creo ”.
 -
 18
-(22)Aceptar.
+Aceptar.
 Realmente no sabes donde se encuentra el cerdo, ni como buscarlo pero solo sigues el único camino que ves notoriamente marcado, hasta que te topas con con alguien que ha muerto a la orilla de un río, al parecer le ha caído el caballo encima, era un anciano con una pierna de palo.
 -
 20
-(23)Ver a través de la rejilla.
+Ver a través de la rejilla.
 Al mirar por la rejilla ves una de las cosas más extrañas que hayas visto antes: “Entonces por eso su debilidad es cortar su cabeza” dijo un guardia de calabozo que al parecer tiene un casco con una extraña forma de zapallo, y a un duende extremadamente delgado junto a alguien que no logras ver su cara.
 Decides continuar tu camino como si nada hubiera pasado, hasta llegar a un punto donde estás muy perdido por lo que debes escoger:
 -
 20
-(24)Ignorar y seguir tu camino.
+Ignorar y seguir tu camino.
 Continúas tu camino hasta que poco a poco solo empiezas a ver árboles y ningún otro camino, por lo que tu única opción es adentrarse en el bosque.
 -
 21
-(25)Aceptar venda
+Aceptar venda
 aceptas la venda, y lo último que dice el anciano es que el cerdo se encuentra en la montaña más alta de la región. mientras voltea a ver la montaña  te giras y el viejo ha desaparecido.
 -
 22
-(26)Continuar tu camino
+Continuar tu camino
 Continuas tu camino hasta pasar por al lado de una silenciosa torre al parecer hay una rejilla dando a un calabozo.
 -
 23
-(27)Pasar por ese sospechoso puente colgante.
+Pasar por ese sospechoso puente colgante.
 Efectivamente el puente estaba en mal estado y te caes al abismo
 GAMEOVER
 -
 23
-(28)Acercarse al barranco.
+Acercarse al barranco.
 NOOoo te acercas demasiado por lo que el abismo mira dentro de ti y te caes.
 GAMEOVER
 -
 24
-(29)Bosque
+Bosque
 Te adentras demasiado en el bosque por lo que pierdes el sentido de la orientación y nunca puedes volver a encontrar el camino.
 GAMEOVER
 25
-(30)Continuar
+Continuar
 Continuas tu camino hasta pasar por al lado de una torre en la que escuchas una discusión a través de una pequeña rejilla dando a un calabozo.
 -
 26
-(31)Ver a través de la rejilla.
+Ver a través de la rejilla.
 Al mirar por la rejilla solo ves un montón de semillas de zapallo desparramadas por todos lados y una calabaza, al parecer el lugar estaba siendo usado por algún granjero.
 Por lo que decides continuar tu camino, hasta llegar a un punto donde estás muy perdido por lo que debes escoger:
 -
 26
-(32)Ignorar y seguir tu camino.
+Ignorar y seguir tu camino.
 Continúas tu camino hasta que poco a poco solo empiezas a ver árboles por lo que tienes que escoger entre dos caminos:
 -
 30
-(33)Ver a través de la rejilla.
+Ver a través de la rejilla.
 Al mirar por la rejilla ves una de las cosas más extrañas que hayas visto antes: “Entonces por eso su debilidad es cortar su cabeza” dijo un guardia de calabozo que al parecer tiene un casco con una extraña forma de zapallo, y a un duende extremadamente delgado junto a alguien que no logras ver su cara.
 Decides continuar tu camino como si nada hubiera pasado, hasta llegar a la punta de la montaña más alta en donde te preparas para la pelea final contra el cerdo.-
 30
-(34)Ignorar y seguir tu camino.
+Ignorar y seguir tu camino.
 Continúas tu camino hasta la punta de la montaña más alta en donde te preparas para la pelea final contra el cerdo. 
 -
 31
-(35)Cruzar un sospechoso puente colgante.
+Cruzar un sospechoso puente colgante.
 Mientras vas cruzando el… ah se rompió y te caíste al abismo.
 GAMEOVER
 -
 31
-(36)Devolverse a casa a mimir.
+Devolverse a casa a mimir.
 No recuerdas el camino de regreso por lo que te pierdes y no logras encontrar el camino correcto.
 GAMEOVER
 -
 32
-(37)Ir al bosque.
+Ir al bosque.
 Te adentras demasiado en el bosque por lo que pierdes el sentido de la orientación y nunca puedes volver a encontrar el camino.
 GAMEOVER
 -
 32
-(38)Ir por ese pantano.
+Ir por ese pantano.
 Un cocodrilo gigante, te ha comido.
 GAMEOVER
 -
 33
-(39)Vendarse.
+Vendarse.
 Antes de atacar al cerdo te vendas la frente con la horrible venda que te dio ese decrépito viejo, para luego atacar al cerdo.
 -
 33
-(40)Atacar.
+Atacar.
 Te diriges con toda la furia del mundo a atacar al cerdo pero justo antes de blandir tu espada tu marca empieza a arder dejándome paralizado y el cerdo come.
 GAMEOVER
 -
 33
-(41)Atacar a la Cabeza.
+Atacar a la Cabeza.
 Te diriges con toda la furia del mundo a atacar al cerdo y cortarle la cabeza pero justo antes de blandir tu espada tu marca empieza a arder dejándome paralizado y el cerdo come.
 GAMEOVER
 -
 34
-(42)Vendarse.
+Vendarse.
 Antes de atacar al cerdo te vendas la frente con la horrible venda que te dio ese decrépito viejo, para luego atacar al cerdo. 
 Te diriges con toda la furia del mundo a atacar al cerdo y logras hacerle un gran corte en una pierna pero el cerdo te devora ya que es muy rápido.
 GAMEOVER
 -
 34
-(43)Atacar.
+Atacar.
 Te diriges con toda la furia del mundo a atacar al cerdo pero justo antes de blandir tu espada tu marca empieza a arder dejándome paralizado y el cerdo come.
 GAMEOVER
 -
 39
-(44)Atacar a la cabeza.
+Atacar a la cabeza.
 Rápidamente te diriges hacia la cabeza del cerdo donde lograras cortarle la cabeza y sorprendentemente tu padre estará vivo dentro del estómago del cerdo, por lo que se irán a la casa y con unos  limones que encontraron en el camino comerán un pie de limón en vez de una asquerosa tarta de avena rancia y la era de hambruna en la aldea habrá terminado porque has aniquilado al último de los cerdos…
 WINNER
 39
-(45)Atacar.
+Atacar.
 Te diriges con toda la furia del mundo a atacar al cerdo y logras hacerle un gran corte en el pecho pero el cerdo te devora ya que es muy rápido.
 GAMEOVER
