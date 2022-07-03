@@ -8,7 +8,8 @@ Al salir de tu cuarto ves a tu padre saliendo de la casa y a tu pobre madre inte
 -
 1
 Acariciar a tu gato
-Rrrrrrr hhhhhiiiiiiiisssss , al parecer a tu gato no le agradas : ( , no se el gato explota y mueres.
+gato explota
+Rrrrrrr hhhhhiiiiiiiisssss , al parecer a tu gato no le agradas :( , el gato explota y mueres.
 GAMEOVER
 -
 2
@@ -126,6 +127,7 @@ GAMEOVER
 Bosque
 Te adentras demasiado en el bosque por lo que pierdes el sentido de la orientación y nunca puedes volver a encontrar el camino.
 GAMEOVER
+-
 25
 Continuar
 Continuas tu camino hasta pasar por al lado de una torre en la que escuchas una discusión a través de una pequeña rejilla dando a un calabozo.
@@ -143,6 +145,7 @@ Continúas tu camino hasta que poco a poco solo empiezas a ver árboles por lo q
 Ver a través de la rejilla.
 Al mirar por la rejilla ves una de las cosas más extrañas que hayas visto antes: “Entonces por eso su debilidad es cortar su cabeza” dijo un guardia de calabozo que al parecer tiene un casco con una extraña forma de zapallo, y a un duende extremadamente delgado junto a alguien que no logras ver su cara.
 Decides continuar tu camino como si nada hubiera pasado, hasta llegar a la punta de la montaña más alta en donde te preparas para la pelea final contra el cerdo.-
+-
 30
 Ignorar y seguir tu camino.
 Continúas tu camino hasta la punta de la montaña más alta en donde te preparas para la pelea final contra el cerdo. 
@@ -196,7 +199,9 @@ GAMEOVER
 Atacar a la cabeza.
 Rápidamente te diriges hacia la cabeza del cerdo donde lograras cortarle la cabeza y sorprendentemente tu padre estará vivo dentro del estómago del cerdo, por lo que se irán a la casa y con unos  limones que encontraron en el camino comerán un pie de limón en vez de una asquerosa tarta de avena rancia y la era de hambruna en la aldea habrá terminado porque has aniquilado al último de los cerdos…
 WINNER
+-
 39
 Atacar.
 Te diriges con toda la furia del mundo a atacar al cerdo y logras hacerle un gran corte en el pecho pero el cerdo te devora ya que es muy rápido.
 GAMEOVER
+-
