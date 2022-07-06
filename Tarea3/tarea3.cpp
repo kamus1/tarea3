@@ -25,24 +25,6 @@ inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v")
     return ltrim(rtrim(s, t), t);
 }
 
-
-//Funcion return Numero cantidad de opciones de nodo
-int NumOpciones(string num){
-    string texto;
-    int contador = 0 ;
-    ifstream archivo;
-    archivo.open("input.txt", ios::in);
-    while(!archivo.eof()){
-        getline(archivo, texto); 
-        trim(texto);
-        if(texto == num){
-            contador++;
-        }
-    }
-    archivo.close();
-    return contador;
-}
-
 bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
     string texto, decision, descripcion, start_, nodoOrigen_2;
     int nodoOrigen_1;
@@ -124,6 +106,8 @@ bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
                 default:
                     if(texto == "GAMEOVER"){
                         descripcion += "\n"+texto;
+                    }else if(texto == "WINNER"){                        
+                        descripcion += "\n"+texto;
                     }else{                        
                         descripcion += texto;
                     }
@@ -131,7 +115,7 @@ bool ProcesarArchivo(NodoGrafo* &inicio, NodoGrafo* &tail, string nameArchivo){
             }
         }
     }
- 
+    
     archivo.close();
     return 1;
 
@@ -143,7 +127,7 @@ int main(){
     NodoGrafo* tail;
 
     // ProcesarArchivo(inicio, tail, "input.txt");
-    if(!ProcesarArchivo(inicio, tail, "historia.txt")){
+    if(!ProcesarArchivo(inicio, tail, "input.txt")){
         cout<<"Ocurrio algun error"<<endl;
         return 0;
     }  
@@ -151,7 +135,7 @@ int main(){
 
     //Ciclo principal del juego
 
-
+    string ultimoTexto;
     int alternativa;
     
     NodoGrafo* aux = inicio;
@@ -159,7 +143,7 @@ int main(){
         system("clear");
 
         cout<<aux->descripcion<<endl;
-        
+        ultimoTexto = aux->descripcion;
 
         Adyacencia* auxAdyacencia = aux->adyacencia;
         if(auxAdyacencia != NULL){
@@ -177,16 +161,27 @@ int main(){
 
                 if(auxAdyacencia->opcion == alternativa){
                     aux = auxAdyacencia->camino;
+                    
                 }
 
-                
                 auxAdyacencia = auxAdyacencia->siguiente;
             }  
         }else{
             aux = inicio;
         }
-        cout<<"OK"<<endl;
-        cin.get();
+        //busca si en el ultimo texto hay un winner 
+        size_t posicionWinner;
+        posicionWinner = ultimoTexto.find("WINNER");
+
+        if(posicionWinner == string::npos){
+            cout<<"Press any key to continue . . . "<<endl;
+            cin.get();
+
+        }else{
+            //cout<<"GANASTE"<<endl;
+            exit (-1);
+
+        }
 
     }
 
