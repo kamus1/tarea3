@@ -181,7 +181,7 @@ int main(){
             //cout<<"GANASTE"<<endl;
             cout<<endl<<"Press any key to exit."<<endl;
             cin.get();
-            exit (-1);
+            return 1;
         }
 
     }
